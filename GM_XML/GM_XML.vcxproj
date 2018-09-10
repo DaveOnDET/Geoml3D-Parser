@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{B5546F27-AACE-3946-950D-2D0853F2C2F4}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>GM_XML</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Geo3DML-beta\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GM_XML.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">GM_XMLd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Geo3DML-beta\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GM_XML.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">GM_XML</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Geo3DML-beta\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GM_XML.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">GM_XMLs</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Geo3DML-beta\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GM_XML.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">GM_XMLrd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GM_XML_LIBRARY;CMAKE_INTDIR="Debug";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;GM_XML_LIBRARY;CMAKE_INTDIR=\"Debug\";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/Debug/GM_XMLd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/Debug/GM_XMLd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR="Release";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR=\"Release\";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/Release/GM_XML.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/Release/GM_XML.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR="MinSizeRel";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR=\"MinSizeRel\";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/MinSizeRel/GM_XMLs.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/MinSizeRel/GM_XMLs.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR="RelWithDebInfo";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GM_XML_LIBRARY;CMAKE_INTDIR=\"RelWithDebInfo\";GM_XML_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\GM_XML;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/RelWithDebInfo/GM_XMLrd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/RelWithDebInfo/GM_XMLrd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Geo3DML-beta/src/GM_XML/CMakeLists.txt;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Geo3DML-beta\src\GM_XML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Export.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractFeature.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractGeometry.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractGML.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractSpatialReferenceSystem.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractTexture.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\CoverageStyle.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureClass.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureRelation.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureStyle.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DLayer.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMap.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMapMetaData.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProject.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProjectMetaData.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DStyle.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeologicFeature.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeologicRelation.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoModel.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoModelMetaData.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoSceneStyle.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoSymbolizer.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlDisplayErrorandWarning.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystem.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystemInfo.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\MappedFeature.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\SpatialRelation.h" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractFeature.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractGeometry.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractGML.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractSpatialReferenceSystem.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractTexture.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\CoverageStyle.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureClass.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureRelation.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureStyle.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DLayer.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMap.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMapMetaData.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProject.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProjectMetaData.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DStyle.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeologicFeature.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeologicRelation.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoModel.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoModelMetaData.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoSceneStyle.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoSymbolizer.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\gmmlDisplayErrorandWarning.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystemInfo.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\MappedFeature.cpp" />
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\SpatialRelation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Geo3DML-beta/ZERO_CHECK.vcxproj">
+      <Project>5B396607-C0A9-36AA-84F3-1F3CAC3E9200</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\DOCBparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\HTMLparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\HTMLtree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\SAX.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\SAX2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\c14n.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\catalog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\chvalid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\debugXML.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\encoding.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\entities.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\error.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\globals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\hash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\legacy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\nanoftp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\nanohttp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\parserInternals.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\pattern.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\relaxng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\schematron.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\threads.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\uri.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\valid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xinclude.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xlink.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlIO.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlmemory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlmodule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlreader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlregexp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlsave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlschemas.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlschemastypes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlunicode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlwriter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xpath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xpointer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\platformTestsC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\rngparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\trio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\trionan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\triostr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlcatalog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\elfgcchack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\trio.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triodef.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\trionan.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triop.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triostr.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\c14n.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\catalog.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\chvalid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\debugXML.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\dict.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\DOCBparser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\encoding.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\entities.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\hash.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\HTMLparser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\HTMLtree.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\list.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\nanoftp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\nanohttp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\parser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\parserInternals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\pattern.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\relaxng.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\SAX.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\SAX2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\schemasInternals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\schematron.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\threads.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\tree.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\uri.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\valid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\vtk_libxml2_mangle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xinclude.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xlink.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlautomata.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlerror.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlexports.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlIO.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlmemory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlmodule.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlreader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlregexp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlsave.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlschemas.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlschemastypes.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlstring.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlunicode.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlversion.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlversion.h.in">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlwin32version.h.in">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlwriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpath.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpathInternals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpointer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\vtk_libxml2_zlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\vssver2.scc">
+      <Filter>Headers</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D980FA9-6A73-33F2-A7F1-630C75574217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AD0C4569-470C-38A0-80FB-9081FEBD64C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{E76E5720-8868-3AD8-AFE5-FD31F44232F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractGML.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractSpatialReferenceSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\AbstractTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\CoverageStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\FeatureStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DLayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMapMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProjectMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\Geo3DStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeologicFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeologicRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoModelMetaData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoSceneStyle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\GeoSymbolizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\gmmlDisplayErrorandWarning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystemInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\MappedFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GM_XML\SpatialRelation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Export.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractFeature.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractGeometry.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractGML.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractSpatialReferenceSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\AbstractTexture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\CoverageStyle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureClass.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureRelation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\FeatureStyle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DLayer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMap.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DMapMetaData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProject.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DProjectMetaData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\Geo3DStyle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeologicFeature.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeologicRelation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoModel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoModelMetaData.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoSceneStyle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\GeoSymbolizer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlDisplayErrorandWarning.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystem.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\gmmlSystemInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\MappedFeature.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GM_XML\SpatialRelation.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Geo3DML-beta\src\GM_XML\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D980FA9-6A73-33F2-A7F1-630C75574217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{E76E5720-8868-3AD8-AFE5-FD31F44232F8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{1B4F9022-BF62-3E09-B7DC-03265AF5FEF8}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>vtklibxml2</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Geo3DML-beta\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtklibxml2.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">vtklibxml2d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Geo3DML-beta\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtklibxml2.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">vtklibxml2</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Geo3DML-beta\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtklibxml2.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">vtklibxml2s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Geo3DML-beta\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtklibxml2.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">vtklibxml2rd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;VTKLIBXML2;CMAKE_INTDIR="Debug";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;VTKLIBXML2;CMAKE_INTDIR=\"Debug\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);E:/Geo3DML-beta/src/GnuWin32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/Debug/vtklibxml2d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/Debug/vtklibxml2d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR="Release";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR=\"Release\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);E:/Geo3DML-beta/src/GnuWin32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/Release/vtklibxml2.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/Release/vtklibxml2.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR="MinSizeRel";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR=\"MinSizeRel\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);E:/Geo3DML-beta/src/GnuWin32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/MinSizeRel/vtklibxml2s.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/MinSizeRel/vtklibxml2s.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR="RelWithDebInfo";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;VTKLIBXML2;CMAKE_INTDIR=\"RelWithDebInfo\";vtklibxml2_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Geo3DML-beta\include;E:\Geo3DML-beta\Src;E:\Geo3DML-beta\Src\vtklibxml2;E:\Geo3DML-beta\src\GnuWin32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;libiconv.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>E:/Geo3DML-beta/lib;E:/Geo3DML-beta/lib/$(Configuration);E:/Geo3DML-beta/src/GnuWin32/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Geo3DML-beta/lib/RelWithDebInfo/vtklibxml2rd.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Geo3DML-beta/lib/RelWithDebInfo/vtklibxml2rd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/Geo3DML-beta -BE:/Geo3DML-beta --check-stamp-file E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Geo3DML-beta/src/vtklibxml2/CMakeLists.txt;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;E:\Geo3DML-beta\CMakeModules\ModuleInstall.cmake;E:\Geo3DML-beta\src\vtklibxml2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Geo3DML-beta\src\vtklibxml2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\config.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\elfgcchack.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\trio.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triodef.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\trionan.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triop.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\triostr.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\c14n.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\catalog.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\chvalid.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\debugXML.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\dict.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\DOCBparser.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\encoding.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\entities.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\globals.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\hash.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\HTMLparser.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\HTMLtree.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\list.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\nanoftp.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\nanohttp.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\parser.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\parserInternals.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\pattern.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\relaxng.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\SAX.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\SAX2.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\schemasInternals.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\schematron.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\threads.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\tree.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\uri.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\valid.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\vtk_libxml2_mangle.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xinclude.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xlink.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlautomata.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlerror.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlexports.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlIO.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlmemory.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlmodule.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlreader.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlregexp.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlsave.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlschemas.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlschemastypes.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlstring.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlunicode.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlversion.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlversion.h.in" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlwin32version.h.in" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xmlwriter.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpath.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpathInternals.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\xpointer.h" />
+    <ClInclude Include="E:\Geo3DML-beta\src\vtklibxml2\vtk_libxml2_zlib.h" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\DOCBparser.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\HTMLparser.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\HTMLtree.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\SAX.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\SAX2.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\c14n.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\catalog.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\chvalid.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\debugXML.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\dict.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\encoding.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\entities.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\error.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\globals.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\hash.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\legacy.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\list.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\nanoftp.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\nanohttp.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\parser.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\parserInternals.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\pattern.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\relaxng.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\schematron.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\threads.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\tree.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\uri.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\valid.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xinclude.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xlink.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlIO.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlmemory.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlmodule.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlreader.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlregexp.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlsave.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlschemas.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlschemastypes.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlstring.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlunicode.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlwriter.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xpath.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xpointer.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\platformTestsC.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\rngparser.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\trio.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\trionan.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\triostr.c" />
+    <ClCompile Include="E:\Geo3DML-beta\src\vtklibxml2\xmlcatalog.c" />
+    <None Include="E:\Geo3DML-beta\src\vtklibxml2\libxml\vssver2.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:/Geo3DML-beta/ZERO_CHECK.vcxproj">
+      <Project>5B396607-C0A9-36AA-84F3-1F3CAC3E9200</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

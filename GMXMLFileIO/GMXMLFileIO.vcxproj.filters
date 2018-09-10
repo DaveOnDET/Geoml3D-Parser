@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureClassXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureClassXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureRelationXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureRelationXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DLayerXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DMapXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DMapXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DProjectXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DProjectXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DStyleXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DStyleXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoFeatureXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoFeatureXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeologicFeatureXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeometryXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeometryXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoModelXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoModelXMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoStyleXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\MappedFeatureXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\MetaDataxmlReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\SpatialRelationXMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\xmlBase64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\XMLReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\XMLWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMCornerPointGrid.cpp">
+      <Filter>vtkDataExt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMPolyData.cpp">
+      <Filter>vtkDataExt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMStructuredPoints.cpp">
+      <Filter>vtkDataExt</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMUnstructuredGrid.cpp">
+      <Filter>vtkDataExt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Export.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureClassXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureClassXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureRelationXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureRelationXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\FeatureXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DLayerXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DMapXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DMapXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DProjectXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DProjectXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DStyleXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\Geo3DStyleXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoFeatureXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoFeatureXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeologicFeatureXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeometryXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeometryXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoModelXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoModelXMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GeoStyleXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\MappedFeatureXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\MetaDataxmlReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\SpatialRelationXMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\XMLBase64.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\XMLReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\XMLWriter.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMCornerPointGrid.h">
+      <Filter>vtkDataExt</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMPolyData.h">
+      <Filter>vtkDataExt</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMUnstructuredGrid.h">
+      <Filter>vtkDataExt</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Geo3DML-beta\src\GMXMLFileIO\GMStructuredPoints.h">
+      <Filter>vtkDataExt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Geo3DML-beta\src\GMXMLFileIO\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D980FA9-6A73-33F2-A7F1-630C75574217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{E76E5720-8868-3AD8-AFE5-FD31F44232F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vtkDataExt">
+      <UniqueIdentifier>{1f3f063d-910f-4356-b630-124eaa8466c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
